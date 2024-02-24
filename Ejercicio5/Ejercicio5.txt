@@ -1,0 +1,9 @@
+¿Por qué la ejecución de un método recursivo puede levantaruna 
+excepción de desbordamiento de pila con la misma entrada 
+que la versiónno recursiva no provoca tal excepción?
+
+La ejecución de un método recursivo puede causar desbordamiento de pila si realiza demasiadas llamadas, 
+llenando la memoria de la pila. Esto se debe a que cada llamada recursiva agrega un nuevo marco a la pila. 
+La versión no recursiva puede no experimentar este problema, 
+ya que utiliza estructuras iterativas que no generan nuevos marcos en la pila en cada iteración, 
+optimizando el uso de memoria.

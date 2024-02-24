@@ -1,0 +1,5 @@
+Explique qué es un método recursivo.
+
+Un método recursivo en Java es una función que se llama a sí misma para resolver un problema dividiéndolo en instancias más pequeñas.
+Debe tener un caso base que define la condición de término. 
+Cada llamada recursiva reduce el problema hasta alcanzar el caso base.

@@ -1,0 +1,7 @@
+¿En qué consiste el problema de las Torres de Hanoi? ¿Cómo puede resolverse?
+
+El problema de las Torres de Hanoi consiste en mover una torre de discos de un poste a otro,
+utilizando un tercer poste como auxiliar, siguiendo reglas específicas. Se resuelve de manera recursiva: 
+mover n-1 discos al poste auxiliar, mover el disco más grande al destino y luego mover los n-1 discos al destino, 
+utilizando el origen como auxiliar. 
+Este enfoque garantiza que se cumplan las reglas de no colocar discos más grandes sobre discos más pequeños. 
